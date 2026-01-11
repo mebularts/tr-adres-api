@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>tr-adres-api · @mebularts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; padding: 32px; max-width: 720px; margin: 0 auto; background: #0f172a; color: #e2e8f0; }
+    a { color: #7dd3fc; }
+    code { background: #0b1222; padding: 2px 6px; border-radius: 6px; }
+    h1 { margin-bottom: 4px; }
+    ul { line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <h1>tr-adres-api</h1>
+  <p>Statik JSON adres verisi. Varsayılan endpoint kökü: <code>https://mebularts.github.io/tr-adres-api</code></p>
+  <h2>Endpointler</h2>
+  <ul>
+    <li><a href="v1/meta.json">/v1/meta.json</a></li>
+    <li><a href="v1/iller.json">/v1/iller.json</a></li>
+    <li><a href="v1/ilceler/by-il/34.json">/v1/ilceler/by-il/{IL_ID}.json</a> (örnek: 34)</li>
+    <li><a href="v1/mahalleler/by-ilce/3401.json">/v1/mahalleler/by-ilce/{ILCE_ID}.json</a> (örnek: 3401)</li>
+    <li><a href="v1/yollar/by-ilce/3401.json">/v1/yollar/by-ilce/{ILCE_ID}.json</a> (örnek: 3401)</li>
+  </ul>
+  <p>Bu sayfa sadece kök URL çağrılarında 404 yerine yönlendirme amaçlıdır. Kütüphane varsayılan olarak bu base URL’yi kullanır.</p>
+  <p>Geliştirici: <strong>@mebularts</strong></p>
+</body>
+</html>
