@@ -1,3 +1,14 @@
-/.tmp/
+*.sql
+*.sql.gz
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.sqlite
+*.sqlite.gz
 /vendor/
 /node_modules/
+/.idea/
+/.vscode/
+/dist/
+/.tmp/
