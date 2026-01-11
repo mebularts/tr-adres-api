@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "generated_at": "2026-01-10T00:00:00Z",
+  "counts": {
+    "iller": 2,
+    "ilceler": 2,
+    "mahalleler": 2,
+    "yollar": 3
+  },
+  "case": "titlecase"
+}
